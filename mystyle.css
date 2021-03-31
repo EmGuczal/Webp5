@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+#cranium{
+ position: relative;
+ top: 100px;
+  border-radius: 50px;
+  width: 300px;
+  height: 300px;
+  background-color: #F5CBA7;
+  margin-bottom: 15px
+}
+
+#ears{
+  position: absolute;
+  bottom: 600px;
+  right: 335px;
+  border-radius: 50px;
+  width: 450px;
+  height: 100px;
+  background-color: #F5CBA7
+}
+
+#eye{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  right: 510px;
+  bottom: 650px;
+}
+
+#iris{
+  position: fixed;
+  width: 10px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: black;
+  border: 20px solid maroon;
+  right: 535px;
+  bottom: 670px;
+      Animation:irismove 3s infinite;
+    }
+    @@keyframes irismove {
+      from {right: 535px;}
+      to {left: 560px;}
+    }
+
+#close{
+  width: 150px;
+  height: 70px;
+  background-color: #F5CBA7;
+  top: 120px;
+  left: 480px;
+  position: absolute;
+}
